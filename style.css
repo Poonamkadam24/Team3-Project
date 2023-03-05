@@ -98,8 +98,10 @@
 }
 
 .container2{
-    margin: 30px 20px;
-    border: 2px solid crimson;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgHOtdLPOfZF3RvAutox0G8tga_clDzUVT746dsnZGvjntQoR4JVlWNKi5Py_cMrrIABk&usqp=CAU");
+ 
+    width: 100%;
+    
 }
 
 
@@ -111,6 +113,8 @@
 .container2 h1{
     color: crimson;
     text-align: center;
+    position: relative;
+    
 
 }
 
@@ -121,22 +125,25 @@
 }
 
 .container3{
-   border: 2px solid crimson;
-   margin: 30px 20px;
-   padding-bottom: 150px; 
+   
+   background-image:url("data:image/jpeg;base64,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");
+    position: absolute;
+    width: 100%;
+   
 }
 
 .container3 h1{
     text-align: center;
     color: crimson;
     margin-top: 15px;
+  
 }
 
 .combos{
     display:flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 80px;
+   
 }
 
 .combos h2{
@@ -146,7 +153,7 @@
 
 .combo1,.combo2,.combo3{
     border:2px solid crimson;
-    padding: 20px 30px;
+    padding: 5px 10px;
     text-align: center;
 }
 
@@ -169,8 +176,9 @@
 }
 
 .contact{
-    border:2px solid crimson ;
-    margin: 30px 20px;
+    
+    margin: 500px 300px;
+    margin-bottom: auto;
     text-align: center;
 }
 
@@ -184,8 +192,9 @@
     display: grid;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+   
+
+    
     padding:50px;
 
 }
@@ -292,7 +301,7 @@ input[type="search"]{
 
 .footer{
 	display:flex;
-	padding:50px;
+	padding:5px;
 	align-items:center;
 	background-color:rgb(176, 27, 57);
 	justify-content:space-around;
